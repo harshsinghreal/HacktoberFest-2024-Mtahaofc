@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator></title>
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1> Generate a <br> <span> Random Password </span> </h1>
+        <div class="display">
+            <input type="text" id="password" placeholder="Password">
+            <img src="copy.png" alt="copy" onclick="copyPassword()">
+            <span id="copy-popup" class="popup">Copied!</span>
+        </div>
+        <button onclick="createPassword()"> <img src="generate.png" alt="generate">Generate Password</button>
+    </div>
+    <div class="bottom-footer">
+        <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Tanmay Chandgude</a> - All rights reserved</p>
+    </div>
+    <script  src="script.js"></script>
+</body>
+</html>
